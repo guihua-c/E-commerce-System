@@ -1,0 +1,19 @@
+15:24:10.338 [http-nio-8080-exec-5] ERROR c.s.g.f.AuthFilter - [unauthorizedResponse,101] - [鉴权异常处理]请求路径:/system/user/getInfo
+15:24:40.903 [http-nio-8080-exec-9] ERROR c.s.g.f.AuthFilter - [unauthorizedResponse,101] - [鉴权异常处理]请求路径:/user/userInfo/isCollect/23
+17:23:43.005 [boundedElastic-176] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/cartList,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+17:23:47.114 [boundedElastic-176] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/addToCart/23/1,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+17:24:57.034 [boundedElastic-188] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/addToCart/23/1,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+17:25:16.229 [boundedElastic-188] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/addToCart/23/1,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+17:25:19.127 [boundedElastic-188] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/addToCart/23/1,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+19:17:16.148 [boundedElastic-283] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/cartList,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+19:17:19.381 [boundedElastic-283] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/cartList,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+19:17:24.166 [boundedElastic-283] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/cartList,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+20:35:47.154 [http-nio-8080-exec-6] ERROR c.s.g.f.AuthFilter - [unauthorizedResponse,101] - [鉴权异常处理]请求路径:/cart/allCheckCart/1
+20:35:47.828 [http-nio-8080-exec-8] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:42:59.999 [http-nio-8080-exec-8] ERROR c.s.g.f.AuthFilter - [unauthorizedResponse,101] - [鉴权异常处理]请求路径:/cart/deleteCart/22
+20:43:00.414 [http-nio-8080-exec-5] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:51:10.867 [http-nio-8080-exec-2] ERROR o.s.w.s.a.HttpWebHandlerAdapter - [handleUnresolvedError,311] - [29ddb7c0] Error [java.io.IOException: 你的主机中的软件中止了一个已建立的连接。] for HTTP GET "/channel/index", but ServerHttpResponse already committed (200 OK)
+20:54:43.245 [boundedElastic-385] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/cart/deleteCart/22,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-cart"
+22:50:35.043 [http-nio-8080-exec-4] ERROR c.s.g.f.AuthFilter - [unauthorizedResponse,101] - [鉴权异常处理]请求路径:/user/userAddress/list
+22:50:35.468 [http-nio-8080-exec-7] ERROR c.s.g.h.GatewayExceptionHandler - [handle,44] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+23:35:34.611 [http-nio-8080-exec-5] ERROR o.s.w.s.a.HttpWebHandlerAdapter - [handleUnresolvedError,311] - [65ea7b1c] Error [java.io.IOException: 你的主机中的软件中止了一个已建立的连接。] for HTTP GET "/channel/index", but ServerHttpResponse already committed (200 OK)

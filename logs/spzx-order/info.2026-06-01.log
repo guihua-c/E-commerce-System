@@ -1,0 +1,160 @@
+18:09:53.325 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 8.0.0.Final
+18:09:53.712 [main] INFO  c.a.n.c.u.ParamUtil - [<clinit>,87] - [settings] [req-serv] nacos-server port:8848
+18:09:53.713 [main] INFO  c.a.n.c.u.ParamUtil - [<clinit>,98] - [settings] [http-client] connect timeout:1000
+18:09:53.714 [main] INFO  c.a.n.c.u.ParamUtil - [<clinit>,105] - PER_TASK_CONFIG_SIZE: 3000.0
+18:09:53.737 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+18:09:53.737 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+18:09:53.740 [main] INFO  c.a.n.c.a.r.i.CredentialWatcher - [loadCredential,165] - null No credential found
+18:09:54.113 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,63] - LOCAL_SNAPSHOT_PATH:C:\Users\30371\nacos\config
+18:09:54.118 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,108] - [RpcClientFactory] create a new rpc client of a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0
+18:09:54.137 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$591/0x000001fc37396698
+18:09:54.137 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$592/0x000001fc37396ab8
+18:09:54.138 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+18:09:54.138 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+18:09:54.146 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Try to connect to server on start up, server: {serverIp = '192.168.6.100', server main port = 8848}
+18:09:54.187 [main] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+18:09:54.969 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Success to connect to server [192.168.6.100:8848] on start up, connectionId = 1780308594812_192.168.6.1_5396
+18:09:54.970 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Notify connected event to listeners.
+18:09:54.970 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,639] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Connected,notify listen context...
+18:09:54.970 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:09:54.970 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$613/0x000001fc374dc0f0
+18:09:55.009 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,62] - limitTime:5.0
+18:09:55.028 [main] INFO  c.a.n.c.c.u.JvmUtil - [<clinit>,54] - isMultiInstance:false
+18:09:55.078 [main] INFO  c.s.o.SpzxOrderApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+18:09:57.691 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9207"]
+18:09:57.692 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:09:57.692 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.7]
+18:09:57.774 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:10:00.144 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+18:10:04.063 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9207"]
+18:10:04.169 [main] INFO  c.a.n.client.naming - [initNamespaceForNaming,62] - initializer namespace from ans.namespace attribute : null
+18:10:04.170 [main] INFO  c.a.n.client.naming - [lambda$initNamespaceForNaming$0,66] - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+18:10:04.171 [main] INFO  c.a.n.client.naming - [lambda$initNamespaceForNaming$1,73] - initializer namespace from namespace attribute :null
+18:10:04.180 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+18:10:04.180 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+18:10:04.184 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,108] - [RpcClientFactory] create a new rpc client of e55f666d-600f-487b-8f32-589e7206cd7a
+18:10:04.186 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:10:04.186 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:10:04.187 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:10:04.187 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Try to connect to server on start up, server: {serverIp = '192.168.6.100', server main port = 8848}
+18:10:04.187 [main] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+18:10:04.311 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Success to connect to server [192.168.6.100:8848] on start up, connectionId = 1780308604219_192.168.6.1_5419
+18:10:04.311 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:10:04.311 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Notify connected event to listeners.
+18:10:04.312 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,78] - Grpc connection connect
+18:10:04.311 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$613/0x000001fc374dc0f0
+18:10:04.313 [main] INFO  c.a.n.client.naming - [registerService,121] - [REGISTER-SERVICE] public registering service spzx-order with instance Instance{instanceId='null', ip='192.168.31.176', port=9207, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+18:10:04.324 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP spzx-order 192.168.31.176:9207 register finished
+18:10:04.745 [main] INFO  c.s.o.SpzxOrderApplication - [logStarted,57] - Started SpzxOrderApplication in 12.118 seconds (process running for 13.233)
+18:10:04.757 [main] INFO  c.a.n.c.c.i.CacheData - [<clinit>,67] - nacos.cache.data.init.snapshot = true 
+18:10:04.757 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,380] - [fixed-192.168.6.100_8848] [subscribe] spzx-order+DEFAULT_GROUP
+18:10:04.764 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,197] - [fixed-192.168.6.100_8848] [add-listener] ok, tenant=, dataId=spzx-order, group=DEFAULT_GROUP, cnt=1
+18:10:04.764 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=spzx-order, group=DEFAULT_GROUP
+18:10:04.787 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,380] - [fixed-192.168.6.100_8848] [subscribe] spzx-order-dev.yml+DEFAULT_GROUP
+18:10:04.788 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,197] - [fixed-192.168.6.100_8848] [add-listener] ok, tenant=, dataId=spzx-order-dev.yml, group=DEFAULT_GROUP, cnt=1
+18:10:04.788 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=spzx-order-dev.yml, group=DEFAULT_GROUP
+18:10:04.788 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,380] - [fixed-192.168.6.100_8848] [subscribe] spzx-order.yml+DEFAULT_GROUP
+18:10:04.788 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,197] - [fixed-192.168.6.100_8848] [add-listener] ok, tenant=, dataId=spzx-order.yml, group=DEFAULT_GROUP, cnt=1
+18:10:04.788 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=spzx-order.yml, group=DEFAULT_GROUP
+18:10:05.097 [RMI TCP Connection(1)-192.168.31.176] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:10:05.128 [RMI TCP Connection(3)-192.168.31.176] INFO  c.z.h.HikariDataSource - [getConnection,110] - GuliHikariPool - Starting...
+18:10:05.296 [RMI TCP Connection(3)-192.168.31.176] INFO  c.z.h.p.HikariPool - [checkFailFast,565] - GuliHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ca514c1
+18:10:05.307 [RMI TCP Connection(3)-192.168.31.176] INFO  c.z.h.HikariDataSource - [getConnection,123] - GuliHikariPool - Start completed.
+23:23:31.138 [lettuce-nioEventLoop-4-2] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+23:23:31.148 [lettuce-nioEventLoop-4-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+23:23:31.361 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /192.168.6.100:6379
+23:23:31.409 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /192.168.6.100:6379
+23:23:31.688 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Server healthy check fail, currentConnection = 1780308594812_192.168.6.1_5396
+23:23:31.689 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+23:23:31.688 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Server healthy check fail, currentConnection = 1780308604219_192.168.6.1_5419
+23:23:31.697 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+23:23:31.722 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:31.724 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:31.931 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:31.932 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:31.976 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 1 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:31.976 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 1 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:32.184 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:32.184 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:32.229 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 2 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:32.231 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 2 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:32.546 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:32.552 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:32.588 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 3 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:32.591 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 3 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:32.998 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:32.997 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:33.038 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 4 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:33.039 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 4 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:33.549 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:33.550 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:33.573 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 5 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:33.573 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 5 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:34.173 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:34.188 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:34.205 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 6 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:34.214 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 6 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:34.912 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:34.925 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 7 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:34.927 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:34.939 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 7 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:35.731 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:35.746 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:35.754 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 8 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:35.765 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 8 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:36.655 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:36.670 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:36.677 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 9 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:36.693 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 9 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:37.688 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:37.705 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:37.717 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 10 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:37.731 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 10 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:38.821 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:38.837 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:38.848 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 11 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:38.860 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 11 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:40.063 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:40.063 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:40.098 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 12 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:40.105 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 12 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:41.405 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:41.409 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:41.431 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 13 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:41.433 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 13 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:41.503 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 192.168.6.100/<unresolved>:6379
+23:23:41.593 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 192.168.6.100/<unresolved>:6379
+23:23:43.096 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:43.099 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.100 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+23:23:43.226 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [a3b875e4-ba04-4b66-85f7-fca816aaaa42_config-0] Fail to connect server, after trying 14 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown
+23:23:43.228 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [e55f666d-600f-487b-8f32-589e7206cd7a] Fail to connect server, after trying 14 times, last try server is {serverIp = '192.168.6.100', server main port = 8848}, error = unknown

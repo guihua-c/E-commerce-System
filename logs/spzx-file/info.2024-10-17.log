@@ -1,0 +1,65 @@
+08:30:01.353 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 8.0.0.Final
+08:30:01.923 [main] INFO  c.a.n.c.u.ParamUtil - [<clinit>,87] - [settings] [req-serv] nacos-server port:8848
+08:30:01.923 [main] INFO  c.a.n.c.u.ParamUtil - [<clinit>,98] - [settings] [http-client] connect timeout:1000
+08:30:01.925 [main] INFO  c.a.n.c.u.ParamUtil - [<clinit>,105] - PER_TASK_CONFIG_SIZE: 3000.0
+08:30:01.995 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+08:30:01.996 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+08:30:02.003 [main] INFO  c.a.n.c.a.r.i.CredentialWatcher - [loadCredential,165] - null No credential found
+08:30:02.837 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,63] - LOCAL_SNAPSHOT_PATH:C:\Users\zy\nacos\config
+08:30:02.845 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,108] - [RpcClientFactory] create a new rpc client of 1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0
+08:30:02.880 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$584/0x0000000800f9efa8
+08:30:02.881 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$585/0x0000000800f9f3c8
+08:30:02.882 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+08:30:02.884 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+08:30:02.899 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Try to connect to server on start up, server: {serverIp = '192.168.6.121', server main port = 8848}
+08:30:02.984 [main] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.121 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+08:30:05.347 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Success to connect to server [192.168.6.121:8848] on start up, connectionId = 1729125006274_192.168.6.1_56562
+08:30:05.351 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Notify connected event to listeners.
+08:30:05.351 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+08:30:05.352 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,639] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Connected,notify listen context...
+08:30:05.352 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$605/0x00000008010e7658
+08:30:05.438 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,62] - limitTime:5.0
+08:30:05.471 [main] INFO  c.a.n.c.c.u.JvmUtil - [<clinit>,54] - isMultiInstance:false
+08:30:05.561 [main] INFO  c.s.f.SpzxFileApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+08:30:10.102 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+08:30:10.104 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+08:30:10.105 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.7]
+08:30:10.316 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+08:30:12.109 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+08:30:18.277 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+08:30:18.885 [main] INFO  c.a.n.client.naming - [initNamespaceForNaming,62] - initializer namespace from ans.namespace attribute : null
+08:30:18.886 [main] INFO  c.a.n.client.naming - [lambda$initNamespaceForNaming$0,66] - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+08:30:18.888 [main] INFO  c.a.n.client.naming - [lambda$initNamespaceForNaming$1,73] - initializer namespace from namespace attribute :null
+08:30:18.905 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+08:30:18.906 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+08:30:18.914 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,108] - [RpcClientFactory] create a new rpc client of 12542a6c-7e55-45ee-b1eb-d9aab6cfe641
+08:30:18.918 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+08:30:18.919 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+08:30:18.920 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+08:30:18.921 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Try to connect to server on start up, server: {serverIp = '192.168.6.121', server main port = 8848}
+08:30:18.922 [main] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.121 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+08:30:19.069 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Success to connect to server [192.168.6.121:8848] on start up, connectionId = 1729125020205_192.168.6.1_56639
+08:30:19.069 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+08:30:19.069 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Notify connected event to listeners.
+08:30:19.070 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,78] - Grpc connection connect
+08:30:19.070 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$605/0x00000008010e7658
+08:30:19.072 [main] INFO  c.a.n.client.naming - [registerService,121] - [REGISTER-SERVICE] public registering service spzx-file with instance Instance{instanceId='null', ip='192.168.137.1', port=9300, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+08:30:19.099 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP spzx-file 192.168.137.1:9300 register finished
+08:30:19.775 [main] INFO  c.s.f.SpzxFileApplication - [logStarted,57] - Started SpzxFileApplication in 19.931 seconds (process running for 22.534)
+08:30:19.794 [main] INFO  c.a.n.c.c.i.CacheData - [<clinit>,67] - nacos.cache.data.init.snapshot = true 
+08:30:19.795 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,380] - [fixed-192.168.6.121_8848] [subscribe] spzx-file.yml+DEFAULT_GROUP
+08:30:19.808 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,197] - [fixed-192.168.6.121_8848] [add-listener] ok, tenant=, dataId=spzx-file.yml, group=DEFAULT_GROUP, cnt=1
+08:30:19.809 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=spzx-file.yml, group=DEFAULT_GROUP
+08:30:19.812 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,380] - [fixed-192.168.6.121_8848] [subscribe] spzx-file-dev.yml+DEFAULT_GROUP
+08:30:19.813 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,197] - [fixed-192.168.6.121_8848] [add-listener] ok, tenant=, dataId=spzx-file-dev.yml, group=DEFAULT_GROUP, cnt=1
+08:30:19.813 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=spzx-file-dev.yml, group=DEFAULT_GROUP
+08:30:19.815 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,380] - [fixed-192.168.6.121_8848] [subscribe] spzx-file+DEFAULT_GROUP
+08:30:19.815 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,197] - [fixed-192.168.6.121_8848] [add-listener] ok, tenant=, dataId=spzx-file, group=DEFAULT_GROUP, cnt=1
+08:30:19.815 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=spzx-file, group=DEFAULT_GROUP
+08:30:20.445 [RMI TCP Connection(6)-10.10.2.23] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:35:16.564 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [1cfd9933-907a-4c3c-bb0f-eef760dc4d78_config-0] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+17:35:16.567 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.121 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+17:35:16.822 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,63] - [12542a6c-7e55-45ee-b1eb-d9aab6cfe641] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+17:35:16.824 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.121 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+17:35:19.688 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.121 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+17:35:19.940 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.c.g.GrpcClient - [createNewManagedChannel,182] - grpc client connection server:192.168.6.121 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}

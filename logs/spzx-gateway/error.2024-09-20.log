@@ -1,0 +1,2 @@
+10:57:56.299 [boundedElastic-60] ERROR c.s.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/auth/login,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-auth"
+10:58:04.706 [boundedElastic-60] ERROR c.s.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/auth/login,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for spzx-auth"
